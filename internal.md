@@ -5,12 +5,12 @@ inbox {
 
 diario {
     _index: {dia da semana} + {data completa}
-    exemplo: "segunda, 02-02-2026.md"
+    exemplo: "segunda - 02-02-2026.md"
 }
 
 devaneios {
-    _index: {tipo de nota} + {data completa} + {"titulo curto"}
-    exemplo: "devaneio 02-02-2026 "o que é amar?".md"
+    _index: {tipo de nota} + {data completa - } + {titulo curto}
+    exemplo: "devaneio 02-02-2026 - o que é amar?.md"
 }
 
 ideias {
@@ -29,8 +29,8 @@ sonhos {
 }
 
 notas de amor {
-    _index: {tipo de nota} + {index} + {"titulo curto"}
-    exemplo: "nota 01: "hoje senti falta de você".md"
+    _index: {tipo de nota} + {index - } + {"titulo curto"}
+    exemplo: "nota 01 - dificil aceitar essas coisas.md"
 }
 
 bibiloteca {
