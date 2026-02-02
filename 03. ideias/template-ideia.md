@@ -1,0 +1,1 @@
+# {{data do dia}} — ideia: {{título curto}}
